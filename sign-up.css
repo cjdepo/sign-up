@@ -1,4 +1,100 @@
 html {
-  font-family: sans-serif;
-  border: 2px solid rgb(200,200,200);
+  font-family: helvetica;
+  background-color: #f2f2f2;
 }
+
+@font-face {
+  font-family: norse;
+  src: url(../sign-up/font/Norse-Bold.otf)
+}
+
+.parent-container {
+  display: flex;
+  background-color: blue;
+  height: 100vh;
+  min-height: 500px;
+  width: 100vw;
+  min-width: 700px;
+  overflow: hidden;
+}
+
+.left-container {
+  height: 100%;
+  position: relative;
+}
+
+.odin-logo-bar {
+  height: 125px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.4);
+  position: absolute;
+  top: 100px;
+}
+
+.logo-name {
+  height: 80%;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+}
+
+#odin-logo {
+  height: 100%;
+}
+
+.odin-name {
+  color: #ffffff;
+  font-size: 80px;
+  font-family: norse, sans-serif;
+}
+
+.photo-caption {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  color: #ffffff;
+  font-size: 10px;
+}
+
+.right-container{
+  display: flex;
+  flex-direction: column;
+  min-width: 50%;
+}
+
+#side-image {
+  width: 100%;
+}
+
+.intro-container {
+  background-color: #f2f2f2;
+  height: 35%;
+  display: flex;
+  align-items: center;
+}
+
+.form-container {
+  background-color: #ffffff;
+  height: 30%
+}
+
+.submission {
+  background-color: #f2f2f2;
+  height: 35%;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+
