@@ -1,5 +1,5 @@
 html {
-  font-family: helvetica;
+  font-family: helvetica, sans-serif;
   background-color: #f2f2f2;
 }
 
@@ -94,6 +94,14 @@ html {
 
 .bold {
   font-weight: bold;
+}
+
+label {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 8px;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  color: rgb(65, 65, 65);
 }
 
 
