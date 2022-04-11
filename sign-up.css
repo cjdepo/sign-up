@@ -10,7 +10,7 @@ html {
 
 .parent-container {
   display: flex;
-  background-color: blue;
+  background-color: #f2f2f2;
   height: 100vh;
   min-height: 500px;
   width: 100vw;
@@ -80,7 +80,10 @@ html {
 
 .form-container {
   background-color: #ffffff;
-  height: 30%
+  overflow: auto;
+  box-shadow: 5px 5px 5px lightgrey;
+  position: relative;
+  z-index: 1;
 }
 
 .submission {
@@ -102,6 +105,39 @@ label {
   font-weight: bold;
   letter-spacing: 0.2em;
   color: rgb(65, 65, 65);
+}
+
+input {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 170px;
+  height: 15px;
+  border-color: #f2f2f2;
+  border-style:solid;
+  border-width: 1px;
+  border-radius: 3px;
+  display: block;
+}
+
+form {
+  margin: 20px 40px 25px 40px;
+}
+
+.option {
+  margin: 0 25px 10px 0;
+}
+
+button {
+  margin: 30px 40px;
+  height: 35px;
+  width: 150px;
+  font-size: 11px;
+  background-color: rgb(71, 97, 3);
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px lightgrey;
 }
 
 

@@ -20,25 +20,39 @@
       <div class="right-container">
         <header class="intro-container bold"><div style="margin: 0 40px 0 40px;">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br> Sign up <em>now</em> to get started. <br><br>You <em>know</em> you want to.</div></header>
         <div class="form-container">
-          <div style="margin: 25px 40px 0 40px;">Let's do this!</div>
+          <div style="margin: 25px 40px 0 40px; font-weight:bold;">Let's do this!</div>
           <form action="" method="post">
-              <label for="firstName">FIRST NAME:</label>
-              <input type="text" id="firstName" name="first_name">
-              <label for="lastName">Last Name:</label>
-              <input type="text" id="lastName" name="last_name">
-              <label for="email">EMail: </label>
-              <input type="email" id="email" name="email">
-              <label for="phoneNumber">Phone Number:</label>
-              <input type="text" id="phoneNumber" name="phone_number">
-              <label for="password">Password:</label>
-              <input type="password" id="password" name="password">
-              <label for="confirmPassword">Confirm Password:</label>
-              <input type="password" id="confirmPassword" name="confirm_password">
-              <button type="submit">Create Account</button>
+            <div style="display: flex; flex-wrap:wrap;">
+              <div class="option">
+                <label for="firstName">FIRST NAME</label>
+                <input type="text" id="firstName" name="first_name">
+              </div>
+              <div class="option">
+                <label for="lastName">LAST NAME</label>
+                <input type="text" id="lastName" name="last_name">
+              </div>
+              <div class="option">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email">
+              </div>
+              <div class="option">
+                <label for="phoneNumber">PHONE NUMBER</label>
+                <input type="text" id="phoneNumber" name="phone_number">
+              </div>
+              <div class="option">
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" name="password">
+              </div>
+              <div class="option">
+                <label for="confirmPassword">CONFIRM PASSWORD</label>
+                <input type="password" id="confirmPassword" name="confirm_password">
+              </div>
+            </div>
           </form>
         </div>  
         <div class="submission">
-          <div style="margin: 25px 40px 0 40px;">Already have an account? <span>Log-In</span></div>
+          <button type="submit">Create Account</button>
+          <div style="margin: 25px 40px 0 40px;">Already have an account? <span style="color:darkgreen;">Log-In</span></div>
         </div> 
       </div>
     </div>
